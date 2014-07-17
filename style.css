@@ -4,7 +4,7 @@
 		body {
 			background-color: #fff;
 			color: #2C2C2C;
-			font: normal 100%;
+			font: normal 100% 'Droid Serif', 'Open Sans', Georgia, Arial;
 		}
 
 		img,
@@ -17,20 +17,40 @@
 		}
 
 
+		/*Typography*/
+		
+		h1 {
+			font-family: 'Droid Serif', Georgia, Serif;
+			font-size: 1.4rem;
+			line-height: 1.9rem;
+			font-weight: 700;
+		}
+
+		p {
+			font-family: 'Droid Serif', Georgia, Serif;
+			font-size: 1rem;
+			line-height: 1.5rem;
+			font-weight: 400;
+		}
+
+
+		/*Page Structure*/
+
 		#page {
 			width: 100%; 
-			height: 800px;
 		}
+
 		.nav {
-			width: 100%; 
-			padding: 1rem;
+			width: 100%;
 			background-color: yellow;
-			
-			font-family: Droid Serif, Georgia, Serif;
+			font-family: 'Open Sans', Arial, sans-serif;
+			font-size: 1rem;
+			text-transform: uppercase;
 		}
 
 		.reel {
 			margin: 1rem;
+
 		}
 
 		.video-container {
@@ -47,6 +67,52 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
+		}
+
+		.about {
+			margin: 1rem;
+			background-color: #88DED8;
+		}
+
+		.projects {
+			margin: 1rem;
+			background-color: #88DED8;
+
+		}
+
+		.flex-container {
+			padding: 1rem;
+			margin: 0;
+			list-style: none;
+
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+
+			-webkit-flex-flow: row wrap;
+			justify-content: space-around;
+		}
+
+		.flex-item {
+			background: tomato;
+			padding: 5px;
+			width: 200px;
+			height: 150px;
+			margin-top: 10px;
+
+			line-height: 150px;
+			color: white;
+			font-weight: bold;
+			font-size: 3em;
+			text-align: center;
+		}
+
+		.contact {
+			margin: 1rem;
+			background-color: #88DED8;
+
 		}
 
 
